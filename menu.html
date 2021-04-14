@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 class="text-3xl text-blue-500 font-extrabold underline text-center m-8">Menu!</h1>
+    <p class="ml-8">Explore our cake menu below! Check back for additional pastries and sweets to be added to the site!</p>
+    <div class="ml-8">
+        <h2 class="text-2xl text-black-500 font-semibold mt-2"> Cakes!</h2>
+        <p class="mt-3">Cakes can be ordered in the following sizes:</p>
+        <ul class="ml-8 mt-3">
+            <li>6 inch | serves 6-8 | $36</li>
+            <li>8 inch | serves 10-12 | $52</li>
+            <li>10 inch | serves 14-18 | $68</li>
+            <li>12 inch | serves 20-24 | $85</li>
+            <li>half sheet | serves 35-45 | $135</li>
+        </ul>
+        <h2 class="text-2xl text-black-500 font-semibold mt-5 ">Favorite Cakes</h2>
+        <h3 class="text-xl text-black-500 font-normal underline mt-2 ">Midnight chocolate cake</h3>
+        <img class="rounded-xl border-8 md:w-1/2" src="chocolate.jpg">
+        <p>Dark devil’s food cake filled with a silky milk chocolate buttercream, finished with bittersweet chocolate ganache, and fresh seasonal fruit</p>
+        <h3 class="text-xl text-black-500 font-normal underline mt-2 ">Carrot cake</h3>
+        <img class="rounded-xl border-8 md:w-1/2" src="carrot.jpg">
+        <p>Classic carrot cake made with raisins and walnuts and spices, frosted with sweet cream cheese icing, and decorated with candied carrot</p>
+        <h3 class="text-xl text-black-500 font-normal underline mt-2 ">Hazelnut dacquoise (gf)</h3>
+        <img class="rounded-xl border-8 md:w-1/2" src="hazelnut.jpg">
+        <p>Hazelnut & almond meringues with coffee buttercream & dark ganache, decorated with hazelnuts</p>
+        <h2 class="text-2xl text-black-500 font-semibold mt-2 ">Explore the Site!</h2>
+        <div>
+            <a class="text-blue-500 underline" href="index.html">Back to home</a> 
+        </div>
+        <div>
+            <a class="text-blue-500 underline" href="aboutus.html">About Us</a>
+        </div>
+    </div>
+
+    <div class="m-8">
+        <h1 class="text-3xl text-blue-500 font-bold text-center">Order your cake today!</h1>
+    ​
+        <form netlify class="mx-auto mt-8 w-64" action="submit.html">
+          <label class="block mt-4 font-bold" for="name">What is your name?</label>
+          <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500 focus:border-blue-500" type="text" id="name" name="name">
+    
+          <label class="block mt-4 font-bold" for="cake-selection">Which cake would you like to order?</label>
+          <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500 focus:border-blue-500" type="text" id="favorite-color" name="favoriteColor">
+
+          <label class="block mt-4 font-bold" for="size-selection">Which size of cake?</label>
+          <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500 focus:border-blue-500" type="text" id="favorite-color" name="favoriteColor">
+
+          <label class="block mt-4 font-bold" for="email">What is your email address?</label>
+          <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-blue-500 focus:border-blue-500" type="text" id="favorite-color" name="favoriteColor">
+    
+          <button class="block mt-4 text-white bg-blue-500 rounded px-4 py-2">Submit order!</button>
+        </form>
+      </div>
+
+</body>
+</html>
